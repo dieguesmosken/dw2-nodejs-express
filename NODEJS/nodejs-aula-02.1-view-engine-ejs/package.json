@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-aula-01.1-introducaoexpressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dieguesmosken/nodejs-aula-01.1-introducaoExpressJs.git"
+  },
+  "author": "Matheus Mosken Diegues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dieguesmosken/nodejs-aula-01.1-introducaoExpressJs/issues"
+  },
+  "homepage": "https://github.com/dieguesmosken/nodejs-aula-01.1-introducaoExpressJs#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}
