@@ -179,3 +179,12 @@ console.log(`A multiplicação de 5 e 5 é ${calc(5, "*", 5)}`);
 
 
 
+//iife
+(function() {
+    console.log("IIFE");
+})();
+
+//iife com parâmetros
+(function(a, b) {
+    console.log(a + b);
+})(2, 3);
